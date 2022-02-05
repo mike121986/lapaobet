@@ -1,0 +1,270 @@
+@import 'https://fonts.googleapis.com/css?family=Rubik+One';
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+
+/* Imagenes Cabecera*/
+body{font-family: 'Dosis', sans-serif;}
+.logo-ini{
+  font-family: 'McLaren', cursive;
+}
+/* @media (max-width: 500px) {
+
+   }
+}
+*/
+
+.log1{
+  position: relative;
+  top: 0%;
+  width: 50%;
+  height: auto;
+
+  /*
+  border:1px solid red;*/
+}
+.log1>.imgalumnos{
+  position: relative;
+  top: 9%;
+  height: 50px;
+}
+.imgalumnos>.cabecera1{
+   position:relative;
+   width:130%;
+   height:455px;
+     opacity: 0.7;
+ /*  border-top: 250px ;
+   border-left: 0px  transparent;
+   border-right: 85px  transparent;
+   border-bottom: 0px  transparent;*/
+   /*-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 */
+/*   transform:rotate(-2deg);*/ /*esto es para dejar mas cute al dibujo*/
+/*   z-index:3;   */
+  -webkit-clip-path: polygon(100% 0%, 50% 0, 100% 0%, 79% 100%, 0 100%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 );
+    z-index: -1;
+   }
+
+
+.cabecera2{
+   position:relative;
+   width:100%;
+   height:500px;
+ /*border-top: 250px ;
+   border-left: 0px  transparent;
+   border-right: 85px  transparent;
+   border-bottom: 0px  transparent;*/
+   /*-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 */
+/*   transform:rotate(-2deg);*/ /*esto es para dejar mas cute al dibujo*/
+/*   z-index:3;*/
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 50% 0%, 100% 100%, 0% 100%, 25% 0%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 );    
+ }
+
+ /*   @media (max-width: 600px) {
+  .cabecera2{
+    display: none;
+  }
+}*/
+
+/* Texto de los headers*/
+.texto-encima1{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+}
+
+.centrado1{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+}
+.parallax-window {
+    width: 100%;
+    min-height:350px;
+    background: transparent;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    z-index: -1;
+}
+.texto-encima2{
+    position: absolute;
+    top: 185%;
+    left: 15%;
+    z-index: 1;
+    font-size: 35px;
+    color: white;
+}
+.centrado2{
+    position: absolute;
+    top: 190%;
+    left: 15%;
+    z-index: 1;
+    font-size: 30px;
+    color: white;
+}
+.boton-cursos{
+    position: absolute;
+    top: 188%;
+    left: 65%;
+    z-index: 1;
+    font-size: 30px;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Dosis', sans-serif;
+}
+.log1>.log2{
+  position: absolute;
+  top:15%;
+  left: 20%;
+  /*border: 2px solid red;*/
+}
+.log2>.eye2{
+   z-index: 1;
+   width: 100%;
+   height: 350px;
+   position: relative;
+   top: 0%;
+   left: 25%;
+   right: 50%;
+   -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb85c;
+     border:5px solid white;
+  /*border-radius: 250px;*/
+
+/*   margin-top: -75px;
+   margin-left: -75px;*/
+}
+/* Estilo de Iconos Nav */
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 75px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+
+  background: #3B5998;
+  color: white;
+
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.pru{
+
+}
+.cursos{
+ 
+	margin: auto;
+}
+ @media (max-width: 500px) {
+ .titulo{
+  top: 80%;
+}
+}
+
+    @media (max-width: 500px) {
+  .cursos{
+     top:75%;
+   /* display: none;*/
+  }
+}
+/* footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+} */
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ .banner-nosotros{
+  width: 100%;
+   height:475px;
+}
+.centrado{
+   color:white;
+   font-size: 30px;
+  /* font-family: 'Modak', cursive;*/
+  font-family: 'Anton', sans-serif;
+
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+/*.texto-encima{
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}*/
+.mar-ing{
+  width: 100%;
+  height: 150px;
+}
+.txt-nos-tit1{
+  font-size: 35px;
+}
+.txt-nos-tit2{
+  font-size: 25px;
+}
+.imag-logo{
+  width: 100%;
+  height: 300px;
+}
+.num{
+  font-size: 35px;
+}
+.ban-1{
+ position:relative;
+   width:133%;
+   height:300px;
+ /*  border-top: 250px ;
+   border-left: 0px  transparent;
+   border-right: 85px  transparent;
+   border-bottom: 0px  transparent;*/
+   /*-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 */
+/*   transform:rotate(-2deg);*/ /*esto es para dejar mas cute al dibujo*/
+/*   z-index:3;   */
+  -webkit-clip-path: polygon(100% 0%, 50% 0, 100% 0%, 79% 100%, 0 100%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 );
+    z-index: -1;
+}
+.ban-2{
+    position:relative;
+   width:100%;
+   height:300px;
+ /*  border-top: 250px ;
+   border-left: 0px  transparent;
+   border-right: 85px  transparent;
+   border-bottom: 0px  transparent;*/
+   /*-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 */
+/*   transform:rotate(-2deg);*/ /*esto es para dejar mas cute al dibujo*/
+/*   z-index:3;*/
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 50% 0%, 100% 100%, 0% 100%, 25% 0%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 );    
+}
