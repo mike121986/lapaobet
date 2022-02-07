@@ -11,11 +11,11 @@ function show_error(){
     $error = new ErrorController();
     $error->index();
 }
+require_once 'views/layout/header.php'; 
 
 if(isset($_GET['controller'])){
     $nombreControlador = $_GET['controller'].'Controller';
-    require_once 'views/layout/header.php'; 
-    /* require_once 'views/layout/sidebar.php'; */
+    //require_once 'views/layout/sidebar.php';
 }elseif(!isset($_GET['controller'])  && !isset($_GET['action'])){
     $nombreControlador = controller_default;    
 }else{
